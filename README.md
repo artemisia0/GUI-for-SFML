@@ -113,5 +113,8 @@ int main()  // Maybe too much maybe boilerplate code, but maybe still ok...
 }
 ```
 
+Here's result of the next code.
+[photo](https://github.com/artemisia0/SSGUI_SFML_GUI/blob/main/ssgui_example.png)
+
 ## License
 License of SSGUI is the same as the license of SFML.
