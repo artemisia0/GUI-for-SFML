@@ -2,7 +2,7 @@
 _Simplest and Smallest GUI header-only library for SFML. Written for beautiful game ui creating._
 
 ## Description
-It is small header-only GUI library for SFML. SSGUI was written for my game. It is neccessary to have button/knob/slider sprites to use those widgets. If You're not a UI designer like me, consider using something like https://www.g200kg.com/en/webknobman/. It is awesome tool for creating nice UI elements at the very ease. You should export sprites as vertical spritesheets (to be SSGUI-compatible). My library has only essential widgets like a button, knob, either vertical or horizontal slider, line edit or text entry and that's all. You can contribute it and add maybe menu or check box...
+It is small header-only GUI library for SFML. SSGUI was written for my game. If You're not a UI designer consider using something like https://www.g200kg.com/en/webknobman/.
 
 ## Features
 * Small header-only library (less than 700 LOC)
