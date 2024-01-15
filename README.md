@@ -1,20 +1,17 @@
-# SSGUI_SFML_GUI
-_Simplest and Smallest GUI header-only library for SFML. Written for beautiful game ui creating._
-
-## Description
-It is small header-only GUI library for SFML. SSGUI was written for my game. Nice tool that might be useful: https://www.g200kg.com/en/webknobman/.
+# Lightweight GUI library for SFML
+I recommend using this [tool](https://www.g200kg.com/en/webknobman/) for creating button/slider/knob textures.
 
 ## Features
 * Small header-only library (less than 700 LOC)
 * Image-based (to create a knob prepared earlier spritesheet is required)
 * Support for creating buttons, sliders (vertical and horizontal), unicode text entries and knobs
-* Written in C++ 17. Tested with g++ and clang++ (MSVC and other stuff should work too...)
+* Written in C++ 17. Tested with g++ and clang++ under linux (MSVC and other stuff should work fine...)
 
 ## Getting started
-To start using SSGUI You will need to install SFML, include ssgui.hpp header to your source code file and compile ssgui.cpp
+To start using this library You should install SFML, include ssgui.hpp header to your source code file and compile ssgui.cpp
 
 ## Tutorial
-Go to 'example' directory.
+Go to the 'example' directory.
 Here's code from it.
 To understand ssgui stuff better You can check it's interface in ssgui.hpp (see comments and some prototypes).
 
@@ -27,7 +24,7 @@ To understand ssgui stuff better You can check it's interface in ssgui.hpp (see 
 // Hi! It is near real-world ssgui usage example
 
 
-int main()  // Maybe too much maybe boilerplate code, but maybe still ok...
+int main()
 {
     // Creating resources
     sf::Texture buttonTexture;
@@ -102,7 +99,7 @@ int main()  // Maybe too much maybe boilerplate code, but maybe still ok...
         knob.update(window);
 
         // Drawing our awesome widgets
-        window.clear(sf::Color(26, 26, 29));  // Clear with nice gray color
+        window.clear(sf::Color(26, 26, 29));
         window.draw(button);
         window.draw(vslider);
         window.draw(hslider);
